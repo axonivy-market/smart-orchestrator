@@ -58,7 +58,7 @@ Full YAML blocks for each provider are in [Model Providers](../providers.md#glob
 
 ## Web search
 
-| Variable | Shipped value | Purpose |
+| Variable | Default | Purpose |
 | --- | --- | --- |
 | `AI.Tool.WebSearch.Engine` | `duckduckgo` | Must match the `name()` of a registered `SmartWebSearchEngine`. Empty uses the first available engine. |
 | `AI.Tool.WebSearch.MaxResults` | _(empty)_ | Results per query. Empty falls back to `5`. |
